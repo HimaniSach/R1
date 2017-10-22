@@ -2,15 +2,35 @@
   "posts": [
     {
       "id": 1,
-      "Q1": "What is my fav color"
+      "title": "What is your fav color?"
     },
     {
       "id": 2,
-      "Q2": "What is my fav country"
+      "title": "What is your fav language"
     },
     {
       "id": 3,
-      "Q3": "What is my fav language"
+      "title": "What is your fav place"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Black,White,Red",
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "body": "English,Hindi,Spanish",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "India,China,Canada",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
